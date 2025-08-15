@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amna Baking — Handmade Breads, Cakes & Treats</title>
+  <meta name="description" content="Amna Baking: small-batch breads, cakes, and pastries made with care." />
+  <meta name="theme-color" content="#C4552D">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logo_Amna_Baking.png" sizes="32x32" type="image/png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css?v=7" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="assets/logo_Amna_Baking.png" alt="Amna Baking logo" class="brand-logo" width="44" height="44" />
+        <span class="brand-name">Amna Baking</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu" />
+      <label for="nav-toggle" class="nav-toggle-btn" aria-hidden="true"><span></span><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary small hide-on-mobile" href="#products"><i class="fa-solid fa-bag-shopping"></i> Shop Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Small‑batch goodness, baked with heart.</h1>
+        <p class="lead">Welcome to <strong>Amna Baking</strong> — your neighborhood source for cozy breads, tender cakes, and little treats that make ordinary days special.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#products"><i class="fa-solid fa-bag-shopping"></i> Shop Now</a>
+          <a class="btn btn-ghost" href="#services"><i class="fa-solid fa-seedling"></i> Learn More</a>
+        </div>
+        <ul class="highlights">
+          <li><i class="fa-solid fa-bread-slice"></i> Slow‑fermented breads</li>
+          <li><i class="fa-solid fa-cake-candles"></i> Custom celebration cakes</li>
+          <li><i class="fa-solid fa-leaf"></i> Quality, honest ingredients</li>
+        </ul>
+      </div>
+      <div class="hero-gallery">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop"
+             alt="Slice of cake on plate" fetchpriority="high" width="1200" height="240" />
+        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=1200&auto=format&fit=crop"
+             alt="Round artisan bread" loading="lazy" width="600" height="170" />
+        <img src="https://images.unsplash.com/photo-1604335399105-a0c09c79b0b1?q=80&w=1200&auto=format&fit=crop"
+             alt="Fluffy baked squares" loading="lazy" width="600" height="170" />
+      </div>
+    </div>
+  </main>
+
+  <section id="products" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="icon-chip" aria-hidden="true"><i class="fa-solid fa-cookie-bite"></i></div>
+        <h2>Products</h2>
+        <p class="subhead">Explore our small‑batch lineup — baked fresh and seasonal.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <a href="assets/products/sourdough-boule.jpg" data-lightbox="products" data-title="Sourdough Boule — Crackly crust, open crumb, naturally leavened.">
+            <img src="assets/products/sourdough-boule.jpg" alt="Sourdough boule bread with crust pattern" loading="lazy" width="1200" height="900" />
+          </a>
+          <div class="card-body">
+            <h3>Sourdough Boule</h3>
+            <p>Crackly crust, open crumb, naturally leavened.</p>
+          </div>
+        </article>
+        <article class="card">
+          <a href="assets/products/chocolate-cupcakes.jpg" data-lightbox="products" data-title="Chocolate Cupcakes — Rich cocoa sponge with silky buttercream.">
+            <img src="assets/products/chocolate-cupcakes.jpg" alt="Chocolate cupcakes with buttercream" loading="lazy" width="1200" height="900" />
+          </a>
+          <div class="card-body">
+            <h3>Chocolate Cupcakes</h3>
+            <p>Rich cocoa sponge topped with silky buttercream.</p>
+          </div>
+        </article>
+        <article class="card">
+          <a href="assets/products/fruit-tart.jpg" data-lightbox="products" data-title="Fruit Tart — Vanilla custard, butter crust, seasonal fruit.">
+            <img src="assets/products/fruit-tart.jpg" alt="Fruit tart with seasonal fruit" loading="lazy" width="1200" height="900" />
+          </a>
+          <div class="card-body">
+            <h3>Fruit Tart</h3>
+            <p>Vanilla custard, butter crust, seasonal fruit.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="icon-chip" aria-hidden="true"><i class="fa-solid fa-clipboard-list"></i></div>
+        <h2>Services</h2>
+        <p class="subhead">From custom orders to cozy catering. (You can expand each item later.)</p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <i class="fa-solid fa-cake-candles" aria-hidden="true"></i>
+          <h3>Custom Cakes</h3>
+          <p>Made‑to‑order designs for birthdays, showers, and milestones.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+          <h3>Event Treats</h3>
+          <p>Brownie bites, cookies, and bars for gatherings big or small.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-bread-slice" aria-hidden="true"></i>
+          <h3>Weekly Bread</h3>
+          <p>Pre‑order rotating loaves for your family table.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="icon-chip" aria-hidden="true"><i class="fa-solid fa-envelope"></i></div>
+        <h2>Contact Us</h2>
+        <p class="subhead">Questions or custom requests? We’d love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us what you’re looking for…" autocomplete="off"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit"><i class="fa-regular fa-paper-plane"></i> Send Message</button>
+        </form>
+
+        <div class="contact-details">
+          <h3>Amna Baking</h3>
+          <p>Small‑batch bakery based in your neighborhood.</p>
+          <ul>
+            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Your City, Country</li>
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i> +00 0000 00000</li>
+            <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> hello@amnabaking.com</li>
+            <li><i class="fa-brands fa-instagram" aria-hidden="true"></i> @amnabaking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Amna Baking. All rights reserved.</span>
+      <a href="#home" class="to-top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i> Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox2 JS (deferred) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" defer></script>
+
+  <script>
+    // update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Lightbox config
+    window.addEventListener('DOMContentLoaded', function(){
+      if (window.lightbox) {
+        lightbox.option({
+          'resizeDuration': 150,
+          'fadeDuration': 150,
+          'imageFadeDuration': 150,
+          'wrapAround': true,
+          'alwaysShowNavOnTouchDevices': true
+        });
+      }
+    });
+  </script>
+</body>
+</html>
